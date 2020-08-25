@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec name="Reserved" format="ROBOT" specversion="2" source="C:\Python27\lib\site-packages\robot\libraries\Reserved.py" generated="2020-08-16T17:31:08Z" lineno="20" scope="GLOBAL" type="LIBRARY" namedargs="true">
+<version></version>
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``Reserved``.</doc>
+<kw name="Break">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="Continue">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="Elif">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="Else">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="Else If">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="End">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="For">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="If">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="Return">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+<kw name="While">
+<arguments>
+<arg>*varargs</arg>
+</arguments>
+<doc></doc>
+</kw>
+</keywordspec>

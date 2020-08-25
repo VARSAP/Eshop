@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200825 14:09:44.415" generator="Robot 3.2.1 (Python 2.7.18 on win32)">
+<suite source="C:\Users\varsa.patnaik\workspace\Eshop" id="s1" name="Eshop">
+<suite source="C:\Users\varsa.patnaik\workspace\Eshop\Test" id="s1-s1" name="Test">
+<suite source="C:\Users\varsa.patnaik\workspace\Eshop\Test\Eshop_Functionalty.robot" id="s1-s1-s1" name="Eshop Functionalty">
+<test id="s1-s1-s1-t1" name="Add Product to cart">
+<kw name="Add to Cart" library="Eshop_Keywords">
+<doc>Added two most expensive products from the shoping website to the cart.</doc>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200825 14:09:44.882" level="INFO">Opening browser 'chrome' to base url 'http://demowebshop.tricentis.com/'.</msg>
+<status status="PASS" endtime="20200825 14:09:53.917" starttime="20200825 14:09:44.881"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20200825 14:09:56.083" starttime="20200825 14:09:53.918"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${REGISTER}</arg>
+</arguments>
+<status status="PASS" endtime="20200825 14:09:56.112" starttime="20200825 14:09:56.084"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BOOKCATAGORIES}</arg>
+</arguments>
+<msg timestamp="20200825 14:09:56.114" level="INFO">Clicking element '(//a[@href='/books'])[3]'.</msg>
+<status status="PASS" endtime="20200825 14:09:57.238" starttime="20200825 14:09:56.113"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${HIGHPRICE}</arg>
+</arguments>
+<msg timestamp="20200825 14:09:57.242" level="INFO">Clicking element '//option[@value='http://demowebshop.tricentis.com/books?orderby=11']'.</msg>
+<status status="PASS" endtime="20200825 14:09:58.029" starttime="20200825 14:09:57.240"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${PRODUCT1}</arg>
+</arguments>
+<msg timestamp="20200825 14:09:58.033" level="INFO">Clicking button '(//input[@class='button-2 product-box-add-to-cart-button'])[1]'.</msg>
+<status status="PASS" endtime="20200825 14:09:58.169" starttime="20200825 14:09:58.031"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CART}</arg>
+</arguments>
+<msg timestamp="20200825 14:09:58.171" level="INFO">Clicking element '(//a[@class='ico-cart'])[1]'.</msg>
+<status status="PASS" endtime="20200825 14:09:58.979" starttime="20200825 14:09:58.170"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BOOKSCAT}</arg>
+</arguments>
+<msg timestamp="20200825 14:09:58.985" level="INFO">Clicking element '(//a[@href='/books'])[1]'.</msg>
+<status status="PASS" endtime="20200825 14:09:59.857" starttime="20200825 14:09:58.982"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${HIGHPRICE}</arg>
+</arguments>
+<msg timestamp="20200825 14:09:59.860" level="INFO">Clicking element '//option[@value='http://demowebshop.tricentis.com/books?orderby=11']'.</msg>
+<status status="PASS" endtime="20200825 14:10:00.589" starttime="20200825 14:09:59.859"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${PRODUCT2}</arg>
+</arguments>
+<status status="PASS" endtime="20200825 14:10:00.608" starttime="20200825 14:10:00.590"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${PRODUCT2}</arg>
+</arguments>
+<msg timestamp="20200825 14:10:00.611" level="INFO">Clicking button '(//input[@class='button-2 product-box-add-to-cart-button'])[2]'.</msg>
+<status status="PASS" endtime="20200825 14:10:00.681" starttime="20200825 14:10:00.609"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BOOKSCAT}</arg>
+</arguments>
+<msg timestamp="20200825 14:10:00.682" level="INFO">Clicking element '(//a[@href='/books'])[1]'.</msg>
+<status status="PASS" endtime="20200825 14:10:01.480" starttime="20200825 14:10:00.682"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CART}</arg>
+</arguments>
+<msg timestamp="20200825 14:10:01.483" level="INFO">Clicking element '(//a[@class='ico-cart'])[1]'.</msg>
+<status status="PASS" endtime="20200825 14:10:02.324" starttime="20200825 14:10:01.481"></status>
+</kw>
+<status status="PASS" endtime="20200825 14:10:02.326" starttime="20200825 14:09:44.881"></status>
+</kw>
+<status status="PASS" endtime="20200825 14:10:02.327" critical="yes" starttime="20200825 14:09:44.880"></status>
+</test>
+<status status="PASS" endtime="20200825 14:10:02.330" starttime="20200825 14:09:44.486"></status>
+</suite>
+<status status="PASS" endtime="20200825 14:10:02.338" starttime="20200825 14:09:44.483"></status>
+</suite>
+<status status="PASS" endtime="20200825 14:10:02.343" starttime="20200825 14:09:44.453"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Eshop" pass="1">Eshop</stat>
+<stat fail="0" id="s1-s1" name="Test" pass="1">Eshop.Test</stat>
+<stat fail="0" id="s1-s1-s1" name="Eshop Functionalty" pass="1">Eshop.Test.Eshop Functionalty</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
